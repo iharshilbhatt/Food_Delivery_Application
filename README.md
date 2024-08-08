@@ -80,7 +80,7 @@
     <h3>Setup</h3>
     <ol>
         <li><strong>Clone the Repository:</strong>
-            <pre><code>git clone https://github.com/your-repo/food-delivery-app.git</code></pre>
+            <pre><code>git clone https://github.com/iharshilbhatt/Food_Delivery_Application.git</code></pre>
         </li>
         <li><strong>Navigate to the Project Directory:</strong>
             <pre><code>cd food-delivery-app</code></pre>
