@@ -1,0 +1,184 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f9fc; /* Light grayish-blue background */
+  color: #333;
+  box-sizing: border-box;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Header */
+.app-header {
+  width: 100%;
+  padding: 15px 5%;
+  background-color: #f56a1f; /* Bright orange background */
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  border-bottom: 1px solid #ddd; /* Light border for separation */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff; /* White text */
+  flex: 1;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.logout-button {
+  background-color: #3a41cf; /* Blue button */
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Main Section */
+.app-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  max-width: 1200px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Restaurant Section & Menu Section */
+.restaurant-section, .menu-section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Select Restaurant Message */
+.select-restaurant-message {
+  font-size: 1.5rem;
+  color: #888;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Footer */
+.app-footer {
+  width: 100%;
+  padding: 15px 5%;
+  background: #ffffff;
+  color: #333;
+  text-align: center;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Cart Icon */
+.cart-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.cart-icon:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .app-header {
+    padding: 15px 5%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-right {
+    margin-top: 0;
+  }
+
+  .app-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-right {
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+
+  .app-title {
+    font-size: 1.6rem;
+  }
+
+  .logout-button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .select-restaurant-message {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-header {
+    padding: 10px;
+  }
+
+  .app-title {
+    font-size: 1.4rem;
+  }
+
+  .logout-button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .select-restaurant-message {
+    font-size: 1rem;
+  }
+}

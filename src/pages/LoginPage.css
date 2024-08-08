@@ -1,0 +1,136 @@
+/* src/pages/LoginPage.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #e3f2fd, #f9f9f9);
+    animation: backgroundAnimation 20s infinite alternate;
+}
+
+.login-form-container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    animation: formAnimation 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-hero h1 {
+    font-size: 2.5rem;
+    color: #4c5bca;
+    margin: 0;
+    animation: heroTitleAnimation 1.5s ease-in-out;
+}
+
+.login-hero p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+    animation: heroSubtitleAnimation 1.5s ease-in-out;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+    border-color: #4c5bca;
+    box-shadow: 0 0 8px rgba(76, 91, 202, 0.3);
+    outline: none;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4c5bca;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #3a4b8c;
+    transform: scale(1.05);
+}
+
+.login-form button:disabled {
+    background-color: #b0bec5;
+    cursor: not-allowed;
+}
+
+.login-form .error-message {
+    color: #d9534f;
+    margin-top: 10px;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+/* Register Link */
+.register-link {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.register-link a {
+    color: #4c5bca;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes backgroundAnimation {
+    0% { background-color: #e3f2fd; }
+    100% { background-color: #f9f9f9; }
+}
+
+@keyframes formAnimation {
+    0% { opacity: 0; transform: translateY(-30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroTitleAnimation {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroSubtitleAnimation {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

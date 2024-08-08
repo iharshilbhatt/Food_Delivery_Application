@@ -1,0 +1,86 @@
+[
+    {
+        "name": "The Royal Thali",
+        "image": "https://tse4.mm.bing.net/th?id=OIG4.q6xArXZ.ciiJexwyXT3i&w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn",
+        "menu": [
+            { "name": "Paneer Butter Masala", "price": 12, "image": "https://img.freepik.com/free-photo/delicious-meal-table_23-2150857698.jpg?size=626&ext=jpg" },
+            { "name": "Dal Makhani", "price": 10, "image": "https://img.freepik.com/free-photo/traditional-indian-soup-lentils-indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table_2829-18717.jpg?t=st=1723118734~exp=1723122334~hmac=41726d64b62565d6be51df72d56649ec46cb6fc9a69b05c5824b4f9d39897a38&w=1060" },
+            { "name": "Aloo Gobi", "price": 8, "image": "https://img.freepik.com/free-photo/bowl-with-garnish-near-nachos_23-2148181571.jpg?ga=GA1.1.857900096.1723118641&semt=ais_hybrid" },
+            { "name": "Chole Bhature", "price": 15, "image": "https://img.freepik.com/free-photo/high-angle-pakistani-dish-arrangement_23-2148825102.jpg?ga=GA1.1.857900096.1723118641&semt=ais_hybrid" },
+            { "name": "Raita", "price": 5, "image": "https://img.freepik.com/free-photo/front-view-tasty-dovga-yogurt-soup-with-greens-white-table-milk-meal-dish_140725-124893.jpg?ga=GA1.1.857900096.1723118641&semt=ais_hybrid" }
+        ],
+        "rating": 4.8
+    },
+    {
+        "name": "Saffron Vegetarian",
+        "image": "https://www.bing.com/th?id=OIP.-XUym4bwIHaue-dWZRDx4AHaE8&w=153&h=102&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+        "menu": [
+            { "name": "Chana Masala", "price": 9, "image": "https://images.pexels.com/photos/9287032/pexels-photo-9287032.jpeg?auto=compress&cs=tinysrgb&w=600" },
+            { "name": "Palak Paneer", "price": 11, "image": "https://media.istockphoto.com/id/1273066848/photo/close-up-image-of-kadhai-balti-dish-containing-vegetarian-meal-palak-paneer-recipe-beside-a.jpg?b=1&s=612x612&w=0&k=20&c=xta3_sWZs9idW4s0pj93yuEThfrHq3SCUpPC40xLRUE=" },
+            { "name": "Bhindi Masala", "price": 10, "image": "https://www.bing.com/th?id=OIP.EsJLkUjLCf-D-zrvswiA_wHaHa&w=146&h=146&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" },
+            { "name": "Kadai Paneer", "price": 12, "image": "https://th.bing.com/th?id=OSK.12cd00e15e9bb1e0f339bbde352161af&w=228&h=175&rs=2&qlt=80&o=6&cdv=1&dpr=1.3&pid=16.1" },
+            { "name": "Pulao", "price": 7, "image": "https://th.bing.com/th?id=OIP.dDtVbhk93KfAhblGjtoxTwHaE8&w=200&h=200&c=9&rs=1&qlt=99&o=6&dpr=1.3&pid=13.1" }
+        ],
+        "rating": 4.6
+    },
+    {
+        "name": "Khana Khazana",
+        "image": "https://tse1.mm.bing.net/th?id=OIG3.I.w_iBuBC3VSJ_KBcYDd&w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn",
+        "menu": [
+            { "name": "Vegetable Biryani", "price": 14, "image": "https://www.svgrepo.com/show/421636/dinner-food-foods.svg" },
+            { "name": "Raita", "price": 5, "image": "https://www.svgrepo.com/show/70534/ready-to-eat.svg" },
+            { "name": "Mixed Veg Curry", "price": 12, "image": "https://www.svgrepo.com/show/429381/curry-food-japan.svg" },
+            { "name": "Dum Aloo", "price": 11, "image": "https://www.svgrepo.com/show/11672/dum-aloo.svg" },
+            { "name": "Naan", "price": 4, "image": "https://www.svgrepo.com/show/493384/bread-factory-production-staff-female.svg" }
+        ],
+        "rating": 4.7
+    },
+    {
+        "name": "Tandoori Taste",
+        "image": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "menu": [
+            { "name": "Tandoori Paneer Tikka", "price": 13, "image": "https://www.svgrepo.com/show/174094/palak-paneer.svg" },
+            { "name": "Stuffed Naan", "price": 7, "image": "https://www.svgrepo.com/show/530223/bread.svg" },
+            { "name": "Rajma", "price": 9, "image": "https://www.svgrepo.com/show/160470/dal-makhani.svg" },
+            { "name": "Aloo Tikki", "price": 6, "image": "https://www.svgrepo.com/show/11672/dum-aloo.svg" },
+            { "name": "Paneer Tikka Masala", "price": 15, "image": "https://www.svgrepo.com/show/27473/paneer.svg" }
+        ],
+        "rating": 4.9
+    },
+    {
+        "name": "Spice Garden",
+        "image": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "menu": [
+            { "name": "Aloo Paratha", "price": 8, "image": "https://imgs.search.brave.com/PqBKGmhLRdBhP5Pux4McYzU_ZBzLt2pYWj3ftAAV6D8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA1/NTA2OTY5NC9waG90/by9idXJtZXNlLXBh/cmF0aGEuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPWh2bW5q/WU9vUXBDamVvb2hM/aXlCYjJtelMxMm92/UUZta29lbzhicWEx/MlE9" },
+            { "name": "Kachori", "price": 6, "image": "https://imgs.search.brave.com/ir7DeF19uEjTpYTZAOLTRcqkcDHzU2NsRUBWCZ0M8IE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMy/OTg5Njg5MS9waG90/by9vbmlvbi1rYWNo/b3JpLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1SVkZLMzlH/UlJqTmFHVHpmSklX/UlRfVnR6V2UtU3hf/NU9XakY2RDRSUHhR/PQ" },
+            { "name": "Hakka Noodles", "price": 11, "image": "https://imgs.search.brave.com/WVYojeq_psTWcIhDKfQwxrEwxxZlSqc1dyYgHM9BBJw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQz/OTQ1NjY3OS9waG90/by9oYWtrYS1ub29k/bGVzLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1iSXdVZnl4/R1hjd1BGU2V2NHFZ/TmpSeWtVYVkteFky/bHF5aWlOS2V6cWRj/PQ" },
+            { "name": "Veg Manchurian", "price": 12, "image": "https://imgs.search.brave.com/G7OvTm-f0vyggX86Q3xAA-CnoTE9yw4hgs81Z_SaqE8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9pbmRpYW4tY3Vp/c2luZS12ZWdldGFi/bGUtbWFuY2h1cmlh/bi13aGl0ZS1iYWNr/Z3JvdW5kXzU1NjEw/LTE4ODAuanBnP3Np/emU9NjI2JmV4dD1q/cGc" },
+            { "name": "Vegetable Spring Roll", "price": 9, "image": "https://imgs.search.brave.com/cD8Irhn427tPpc_V9SqcnjLNaMWEYMfNJGmt5WuzpMM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jb29r/aWVhbmRrYXRlLmNv/bS9pbWFnZXMvMjAx/OS8wOC9mcmVzaC1z/cHJpbmctcm9sbHMt/cmVjaXBlLTQuanBn" }
+        ],
+        "rating": 4.4
+    },
+    {
+        "name": "Ghar Ka Khana",
+        "image": "https://images.pexels.com/photos/1579739/pexels-photo-1579739.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "menu": [
+            { "name": "Kachori Chaat", "price": 8, "image": "https://imgs.search.brave.com/dcezVP0KKZ3qvcxOcMJpIVHFNFo0Jy82KZU1Qm-CUYI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE4/NTQ2NTIyMC9waG90/by9yYWota2FjaG9y/aS1jaGFhdC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9NFZw/bXNuR2REdmFucFFP/RnI4Q3k4QndDMW1t/SkNBbzhaRG9zeE0y/TzN0MD0" },
+            { "name": "Dal Tadka", "price": 10, "image": "https://imgs.search.brave.com/X1sdwEjXeFU6ZEh5EB1UAl5smc6jR5ldtO9GSHl9ZZo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bXlnaW5nZXJnYXJs/aWNraXRjaGVuLmNv/bS9pbWFnZXMvODAw/cHgvODAwcHgtcmVz/dGF1cmFudC1zdHls/ZS1kYWwtdGFka2Et/cmVjaXBlLWhvdy10/by1tYWtlLXRhZGth/LWRhbC0xMC5qcGc" },
+            { "name": "Jeera Rice", "price": 6, "image": "https://imgs.search.brave.com/yApcdQcYu9JzsxmEbAuJEIaHEM9rpcjT53rrh2KeqRU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zaW5m/dWxseXNwaWN5LmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8wOS8yLTUuanBn" },
+            { "name": "Baingan Bharta", "price": 11, "image": "https://imgs.search.brave.com/OHOdb3mqA226rlaoGIIUHf27gTrmxAUKB5GNRhEhe3Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29va3dpdGhtYW5h/bGkuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE0LzA4L1B1/bmphYmktQmFpbmdh/bi1CaGFydGEtUmVj/aXBlLmpwZw" },
+            { "name": "Vegetable Pulao", "price": 9, "image": "hhttps://imgs.search.brave.com/5X7oqi66z-QuSvB78M507gmrGbzn-_9YmvGFrDe4Jtw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4x/LmZvb2R2aXZhLmNv/bS9zdGF0aWMtY29u/dGVudC9mb29kLWlt/YWdlcy9yaWNlLXJl/Y2lwZXMvdmVnZXRh/YmxlLXB1bGF2LXJl/Y2lwZS92ZWdldGFi/bGUtcHVsYXYtcmVj/aXBlLmpwZw" }
+        ],
+        "rating": 4.5
+    },
+    {
+        "name": "Heritage Foods",
+        "image": "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "menu": [
+            { "name": "Pesarattu", "price": 7, "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=600" },
+            { "name": "Uttapam", "price": 9, "image": "https://media.istockphoto.com/id/2012905499/photo/south-indian-food-uttapam.jpg?b=1&s=612x612&w=0&k=20&c=LUslJUpCDPYYHzgqew2q0lFgaBz-uf64zSSsV-t0nJU=" },
+            { "name": "Sambar", "price": 5, "image": "https://media.istockphoto.com/id/1257507140/photo/masala-dosa-south-indian-meal-served-with-sambhar-and-coconut-chutney-over-traditional-south.jpg?b=1&s=612x612&w=0&k=20&c=_er6rcsd5ZpyF_zOatGunYJv-V7KAYmD2FLuk9LQ7bA=" },
+            { "name": "Idli", "price": 6, "image": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=600" },
+            { "name": "Coconut Chutney", "price": 4, "image": "https://images.pexels.com/photos/3531700/pexels-photo-3531700.jpeg?auto=compress&cs=tinysrgb&w=600" }
+        ],
+        "rating": 4.7
+    }
+]
