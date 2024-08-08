@@ -1,70 +1,209 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>Food Delivery Application</h1>
+    <h2>Overview</h2>
+    <p>The Food Delivery Application is a full-stack web application built with the MERN stack (MongoDB, Express, React, Node.js). This application allows users to browse vegetarian restaurants, view menus, manage their cart, place orders, and review previous orders. It also features a secure login system to access personalized content.</p>
+    <h2>Features</h2>
+    <ul>
+        <li><strong>Restaurant List</strong>:
+            <ul>
+                <li>Browse a list of vegetarian restaurants.</li>
+                <li>Filter restaurants by rating.</li>
+                <li>Search for restaurants by name.</li>
+            </ul>
+        </li>
+        <li><strong>Menu</strong>:
+            <ul>
+                <li>View detailed menus of selected restaurants.</li>
+                <li>Add dishes to the cart.</li>
+                <li>Complete the order process with a confirmation.</li>
+            </ul>
+        </li>
+        <li><strong>Cart Management</strong>:
+            <ul>
+                <li>Add or remove items from the cart.</li>
+                <li>View the total price of selected items.</li>
+            </ul>
+        </li>
+        <li><strong>Previous Orders</strong>:
+            <ul>
+                <li>View a list of previous orders with details.</li>
+                <li>View order ID, items, total amount, and order date.</li>
+            </ul>
+        </li>
+        <li><strong>Authentication</strong>:
+            <ul>
+                <li>Secure login for users with credentials.</li>
+                <li>Automatic redirection upon successful login.</li>
+            </ul>
+        </li>
+        <li><strong>Responsive Design</strong>:
+            <ul>
+                <li>A user-friendly interface that adapts to both desktop and mobile devices.</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Technologies Used</h2>
+    <ul>
+        <li><strong>Frontend</strong>:
+            <ul>
+                <li>React</li>
+                <li>React Router DOM</li>
+                <li>CSS for styling</li>
+            </ul>
+        </li>
+        <li><strong>Backend</strong>:
+            <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+            </ul>
+        </li>
+        <li><strong>Database</strong>:
+            <ul>
+                <li>MongoDB</li>
+            </ul>
+        </li>
+        <li><strong>Other</strong>:
+            <ul>
+                <li>Axios for HTTP requests</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Installation</h2>
+    <h3>Prerequisites</h3>
+    <ul>
+        <li>Node.js (v14.x or later)</li>
+        <li>npm (v6.x or later)</li>
+        <li>MongoDB (running locally or via MongoDB Atlas)</li>
+    </ul>
+    <h3>Setup</h3>
+    <ol>
+        <li><strong>Clone the Repository:</strong>
+            <pre><code>git clone https://github.com/your-repo/food-delivery-app.git</code></pre>
+        </li>
+        <li><strong>Navigate to the Project Directory:</strong>
+            <pre><code>cd food-delivery-app</code></pre>
+        </li>
+        <li><strong>Install Backend Dependencies:</strong>
+            <ol>
+                <li>Navigate to the <code>backend</code> directory:
+                    <pre><code>cd backend</code></pre>
+                </li>
+                <li>Install the dependencies:
+                    <pre><code>npm install</code></pre>
+                </li>
+            </ol>
+        </li>
+        <li><strong>Install Frontend Dependencies:</strong>
+            <ol>
+                <li>Navigate to the <code>client</code> directory:
+                    <pre><code>cd ../client</code></pre>
+                </li>
+                <li>Install the dependencies:
+                    <pre><code>npm install</code></pre>
+                </li>
+            </ol>
+        </li>
+        <li><strong>Configure Environment Variables:</strong>
+            <p>Create a <code>.env</code> file in the <code>backend</code> directory with the following content:</p>
+            <pre><code>MONGO_URI=your_mongodb_connection_string
+PORT=5000</code></pre>
+            <p>Replace <code>your_mongodb_connection_string</code> with your MongoDB connection string.</p>
+        </li>
+        <li><strong>Start the Application:</strong>
+            <ol>
+                <li>Start the backend server:
+                    <pre><code>cd backend
+npm start</code></pre>
+                </li>
+                <li>Start the frontend development server:
+                    <pre><code>cd ../client
+npm start</code></pre>
+                </li>
+            </ol>
+            <p>The frontend will be available at <code>http://localhost:3000</code> and the backend at <code>http://localhost:5000</code>.</p>
+        </li>
+    </ol>
+    <h2>Usage</h2>
+    <ol>
+        <li><strong>Access the Application:</strong>
+            <p>Open your web browser and navigate to <code>http://localhost:3000</code>.</p>
+        </li>
+        <li><strong>Login:</strong>
+            <p>Use the default credentials:</p>
+            <ul>
+                <li><strong>Username</strong>: <code>user</code></li>
+                <li><strong>Password</strong>: <code>password</code></li>
+            </ul>
+            <p>You can change these credentials in the <code>LoginPage.jsx</code> file.</p>
+        </li>
+        <li><strong>Explore Restaurants:</strong>
+            <p>Use the search bar and rating filter to find vegetarian restaurants. Click on a restaurant to view its menu.</p>
+        </li>
+        <li><strong>View Menu and Place Orders:</strong>
+            <p>Browse through the menu of the selected restaurant. Add dishes to your cart and complete the order process.</p>
+        </li>
+        <li><strong>View Previous Orders:</strong>
+            <p>Click on "Previous Orders" to review past orders.</p>
+        </li>
+    </ol>
+    <h2>Folder Structure</h2>
+    <pre><code>food-delivery-app
+│
+├── backend
+│   ├── node_modules
+│   ├── .env
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── restaurants.json
+│   └── server.js
+│
+├── client
+│   ├── node_modules
+│   ├── public
+│   │   ├── favicon.ico
+│   │   ├── image.png
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   └── logo512.png
+│   ├── src
+│   │   ├── components
+│   │   │   ├── Cart.css
+│   │   │   ├── Cart.js
+│   │   │   ├── DishCard.js
+│   │   │   ├── DishesMenu.css
+│   │   │   ├── DishesMenu.js
+│   │   │   ├── PreviousOrders.js
+│   │   │   ├── RestaurantCard.css
+│   │   │   ├── RestaurantCard.js
+│   │   │   ├── RestaurantList.css
+│   │   │   └── RestaurantList.js
+│   │   ├── contexts
+│   │   │   └── RestaurantContext.js
+│   │   ├── pages
+│   │   │   ├── LoginPage.css
+│   │   │   ├── LoginPage.jsx
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── App.test.js
+│   │   ├── index.css
+│   │   ├── index.js
+│   │   ├── logo.svg
+│   │   ├── reportWebVitals.js
+│   │   └── setupTests.js
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   └── README.md
+│
+├── images
+│   └── The Royal Thali.jpeg
+│
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
+</code></pre>
+</body>
+</html>
